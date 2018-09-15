@@ -1,0 +1,66 @@
+body{
+    background-image: url("./images/BH-main.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:black;
+    
+    font-family: 'Cherry Cream Soda', cursive;
+}
+   
+h1{
+ text-align: center;
+}
+#homeHeader{
+    background-color:rgba(255, 255, 0, 0.507);
+}
+#homeBody{
+    text-align: center;
+    background-color:rgba(255, 0, 0, 0.568);
+}
+
+#homeFooter{
+    text-align: center;
+    background-color:rgba(255, 166, 0, 0.589);
+}
+#homeCard{
+    width:550px;
+    height:375px;
+    
+}
+#homeContainer{
+    margin-left:0px;
+    margin-top:250px;
+}
+.card{
+    text-align:center;
+    margin-top:50px;
+    background-color:rgba(255, 166, 0, 0.603);
+}
+.modal a.close-modal[class*="icon-"] {
+    top: -10px;
+    right: -10px;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    background: #900;
+    border: 2px solid #fff;
+    -webkit-border-radius:  26px;
+    -moz-border-radius:     26px;
+    -o-border-radius:       26px;
+    -ms-border-radius:      26px;
+    -moz-box-shadow:    1px 1px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    box-shadow:         1px 1px 5px rgba(0,0,0,0.5);
+  }
+  #friendPhoto{
+      width:400px;
+      height:300px;
+  }
+  .navbar{
+     background-color:orange;
+  }
+ 
