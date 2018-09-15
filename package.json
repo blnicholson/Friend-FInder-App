@@ -1,23 +1,26 @@
 {
-  "name": "friend-finder-app",
+  "name": "Friend-Finder-App",
   "version": "1.0.0",
-  "description": "A friend finding application",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blnicholson/Friend-Finder-App.git"
   },
-  "author": "Brandy Nicholson",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blnicholson/Friend-Finder-App/issues"
   },
-  "homepage": "https://github.com/blnicholson/Friend-Finder-App#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3"
-  }
+  "homepage": "https://github.com/blnicholson/Friend-Finder-App#readme"
 }
